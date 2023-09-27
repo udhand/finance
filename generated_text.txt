@@ -1,0 +1,125 @@
+_content = $comment_content;
++		$this->comment_date = $comment_date;
++		$this->comment_status = $comment_status;
++		$this->comment_post_id = $comment_post_id;
++		$this->comment_author = $comment_author;
++		$this->comment_email = $comment_email;
++		$this->comment_author_ip = $comment_author_ip;
++		$this->comment_approved = $comment_approved;
++		$this->comment_agent = $comment_agent;
++		$this->comment_type = $comment_type;
++		$this->comment_parent = $comment_parent;
++		$this->user_id = $user_id;
++	}
++
++	public function get_comment_id()
++	{
++		return $this->comment_id;
++	}
++
++	public function get_comment_content()
++	{
++		return $this->comment_content;
++	}
++
++	public function get_comment_date()
++	{
++		return $this->comment_date;
++	}
++
++	public function get_comment_status()
++	{
++		return $this->comment_status;
++	}
++
++	public function get_comment_post_id()
++	{
++		return $this->comment_post_id;
++	}
++
++	public function get_comment_author()
++	{
++		return $this->comment_author;
++	}
++
++	public function get_comment_email()
++	{
++		return $this->comment_email;
++	}
++
++	public function get_comment_author_ip()
++	{
++		return $this->comment_author_ip;
++	}
++
++	public function get_comment_approved()
++	{
++		return $this->comment_approved;
++	}
++
++	public function get_comment_agent()
++	{
++		return $this->comment_agent;
++	}
++
++	public function get_comment_type()
++	{
++		return $this->comment_type;
++	}
++
++	public function get_comment_parent()
++	{
++		return $this->comment_parent;
++	}
++
++	public function get_user_id()
++	{
++		return $this->user_id;
++	}
++
++	public function set_comment_content($comment_content)
++	{
++		$this->comment_content = $comment_content;
++	}
++
++	public function set_comment_date($comment_date)
++	{
++		$this->comment_date = $comment_date;
++	}
++
++	public function set_comment_status($comment_status)
++	{
++		$this->comment_status = $comment_status;
++	}
++
++	public function set_comment_post_id($comment_post_id)
++	{
++		$this->comment_post_id = $comment_post_id;
++	}
++
++	public function set_comment_author($comment_author)
++	{
++		$this->comment_author = $comment_author;
++	}
++
++	public function set_comment_email($comment_email)
++	{
++		$this->comment_email = $comment_email;
++	}
++
++	public function set_comment_author_ip($comment_author_ip)
++	{
++		$this->comment_author_ip = $comment_author_ip;
++	}
++
++	public function set_comment_approved($comment_approved)
++	{
++		$this->comment_approved = $comment_approved;
++	}
++
++	public function set_comment_agent($comment_agent)
++	{
++		$this->comment_agent = $comment_agent;
++	}
++
++	public
